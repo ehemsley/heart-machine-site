@@ -1,0 +1,79 @@
+---
+---
+
+@import "minima";
+@import "/assets/vendor/carousel.css";
+
+body {
+  background-color: #0A0A0A;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  max-width: none;
+}
+
+.site-title {
+  color: #DE3048;
+}
+
+.site-title:visited {
+  color: #DE3048;
+}
+
+/*
+.site-nav .page-link-container {
+  float: left;
+  margin-right: 20px;
+  height: 56px;
+  border-bottom: 5px transparent;
+}
+
+.page-link-container:hover {
+  cursor: pointer;
+  border-bottom: 5px solid #F51A6A;
+  box-sizing: border-box;
+}
+*/
+
+.site-header {
+  margin-left: 40px;
+  margin-right: 40px;
+  border-top: none;
+  border-bottom: none;
+  min-height: 0;
+}
+
+.site-nav .page-link {
+  color: #EBEBEB;
+}
+
+.site-nav .page-link {
+  display: inline-block;
+  height: 40px;
+  border-bottom: 5px transparent;
+}
+
+.site-nav .page-link:hover {
+  cursor: pointer;
+  border-bottom: 5px solid #F51A6A;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.site-footer {
+  padding-left: 40px;
+  padding-right: 40px;
+  border-top: none;
+  min-height: 0;
+  background-color: #2C2C2C;
+}
+
+.footer-col-wrapper {
+  color: #EBEBEB;
+}
+
+.footer-heading {
+  color: #DE3048;
+}
